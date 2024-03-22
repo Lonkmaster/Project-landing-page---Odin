@@ -18,6 +18,8 @@ button {
 
 .top-button {
     color: white;
+    border:0;
+    outline: 0;
     border-radius: 8px;
     background-color: #3882f6;
     margin-top: 10px;
