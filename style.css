@@ -13,8 +13,19 @@ ul {
 }
 
 button {
-    padding-left: 10px;
-    padding-right: 10px; 
+
+}
+
+.top-button {
+    color: white;
+    border-radius: 8px;
+    background-color: #3882f6;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    
 }
 
 body {
@@ -51,14 +62,23 @@ body {
 
 .quote {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: end;
     background-color: #e5e7eb;
     padding: 150px;
     font-size: 36px;
     font-style: italic;
+    font-style: bold;
     color: #1f2937;
 
 
+}
+
+#bold-test {
+    font-style: normal;
+    font-weight: bolder;
+    font-style: bold;
 }
 
 #queens {
@@ -108,11 +128,61 @@ body {
 }
 
 
+.rounded-corners {
+    border-radius: 35px;
+}
 
+.footer {
+    display: flex;
+    padding-left: 90px;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    background-color: #1f2937;
+}
 
+.bottom-header {
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    gap: 125px;
+    align-items: last baseline;
+    color: white;
+    flex-basis: 60%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3882f6;
+}
 
+.nigga2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
 
+}
 
+.layout-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottom-button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    border-color: white;
+    border:0;
+    outline: 0;
+    box-shadow: inset 0 0 0 2px white;
+}
 
 
 
